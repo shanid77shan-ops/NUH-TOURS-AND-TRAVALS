@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NUH Tours & Travels | Explore | Experience | Enjoy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 50 50" width="44" height="44">
+            <circle cx="25" cy="25" r="22" stroke="url(#goldGrad)" stroke-width="2" fill="none"/>
+            <ellipse cx="25" cy="25" rx="22" ry="10" stroke="url(#goldGrad)" stroke-width="1.5" fill="none"/>
+            <line x1="3" y1="25" x2="47" y2="25" stroke="url(#goldGrad)" stroke-width="1.5"/>
+            <defs>
+              <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#f5d08a"/>
+                <stop offset="50%" style="stop-color:#d4a017"/>
+                <stop offset="100%" style="stop-color:#b8860b"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-nuh">NUH</span>
+          <span class="logo-sub">TOURS &amp; TRAVELS</span>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="stars" id="stars"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">NUH TRADING PVT LTD &mdash; TOURS &amp; TRAVELS DIVISION</p>
+      <h1 class="hero-title">
+        <span class="gold-text">EXPLORE THE WORLD</span>
+        <span class="white-text">with Comfort &amp; Trust</span>
+      </h1>
+      <p class="hero-desc">We provide premium travel solutions for individuals, families, groups and corporate clients.</p>
+      <div class="hero-tagline">
+        <span>EXPLORE</span>
+        <span class="dot">&#9670;</span>
+        <span>EXPERIENCE</span>
+        <span class="dot">&#9670;</span>
+        <span>ENJOY</span>
+      </div>
+      <p class="hero-footer-tagline">Your Journey BEGINS WITH US</p>
+      <div class="hero-btns">
+        <a href="#destinations" class="btn-gold">Explore Destinations</a>
+        <a href="#contact" class="btn-outline">Get a Quote</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE BANNER ===== -->
+  <section class="quote-banner">
+    <div class="quote-content">
+      <span class="quote-mark">&ldquo;</span>
+      <p>We don&apos;t just plan trips, we create memories that last a lifetime.</p>
+      <span class="quote-mark">&rdquo;</span>
+    </div>
+    <p class="quote-sub">Travel Safe &bull; Travel Smart &bull; Travel with NUH</p>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services" id="services">
+    <div class="section-header">
+      <p class="section-label">WHAT WE OFFER</p>
+      <h2 class="section-title">Our <span class="gold-text">Services</span></h2>
+      <div class="gold-divider"></div>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 40L28 20l8 8 12-16 8 8" stroke="url(#sg)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 44l14-4 4 4-4 14L4 44z" fill="url(#sg)" opacity=".3"/>
+            <path d="M56 8L44 12l-4-4 4-14L56 8z" fill="url(#sg)" opacity=".3"/>
+            <circle cx="32" cy="32" r="5" stroke="url(#sg)" stroke-width="2"/>
+            <defs><linearGradient id="sg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Flight Ticket Booking</h3>
+        <p>Domestic &amp; International flight bookings at the best fares.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="12" y="8" width="40" height="48" rx="4" stroke="url(#sg2)" stroke-width="2.5"/>
+            <path d="M20 20h24M20 28h24M20 36h16" stroke="url(#sg2)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="44" cy="44" r="8" fill="url(#sg2)" opacity=".2" stroke="url(#sg2)" stroke-width="2"/>
+            <path d="M41 44l2 2 4-4" stroke="url(#sg2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="sg2" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Visa Assistance</h3>
+        <p>Hassle-free visa support for all major destinations.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="8" y="20" width="48" height="36" rx="3" stroke="url(#sg3)" stroke-width="2.5"/>
+            <path d="M20 20v-6a12 12 0 0124 0v6" stroke="url(#sg3)" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="18" y="30" width="10" height="8" rx="1" stroke="url(#sg3)" stroke-width="2"/>
+            <rect x="36" y="30" width="10" height="8" rx="1" stroke="url(#sg3)" stroke-width="2"/>
+            <path d="M18 46h28" stroke="url(#sg3)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="sg3" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Hotel Reservations</h3>
+        <p>Comfortable stays across budget, premium &amp; luxury categories.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M8 40c0-10 10-18 24-18s24 8 24 18" stroke="url(#sg4)" stroke-width="2.5" stroke-linecap="round"/>
+            <rect x="4" y="38" width="56" height="14" rx="3" stroke="url(#sg4)" stroke-width="2.5"/>
+            <path d="M16 38v-6M32 38v-6M48 38v-6" stroke="url(#sg4)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="32" cy="16" r="5" stroke="url(#sg4)" stroke-width="2"/>
+            <defs><linearGradient id="sg4" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Cruise Packages</h3>
+        <p>Experience the luxury of cruising at top destinations.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="26" r="14" stroke="url(#sg5)" stroke-width="2.5"/>
+            <path d="M32 12v28M18 26h28" stroke="url(#sg5)" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="32" cy="26" rx="14" ry="6" stroke="url(#sg5)" stroke-width="1.5"/>
+            <path d="M20 48c0-4 5-8 12-8s12 4 12 8" stroke="url(#sg5)" stroke-width="2.5" stroke-linecap="round"/>
+            <defs><linearGradient id="sg5" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Domestic &amp; International Tour Packages</h3>
+        <p>Customized packages for family, group &amp; corporate clients.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="8" y="28" width="18" height="10" rx="2" stroke="url(#sg6)" stroke-width="2.5"/>
+            <rect x="38" y="28" width="18" height="10" rx="2" stroke="url(#sg6)" stroke-width="2.5"/>
+            <circle cx="16" cy="44" r="4" stroke="url(#sg6)" stroke-width="2"/>
+            <circle cx="48" cy="44" r="4" stroke="url(#sg6)" stroke-width="2"/>
+            <path d="M26 33h12M8 33V20h40v8" stroke="url(#sg6)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="sg6" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Airport Pickup &amp; Drop</h3>
+        <p>Safe, reliable &amp; punctual transfer services.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 8C20 8 12 18 12 28c0 14 20 28 20 28s20-14 20-28C52 18 44 8 32 8z" stroke="url(#sg7)" stroke-width="2.5"/>
+            <circle cx="32" cy="28" r="6" stroke="url(#sg7)" stroke-width="2"/>
+            <path d="M26 22c3-6 10-6 13 0" stroke="url(#sg7)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="sg7" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Umrah / Religious Tours</h3>
+        <p>Complete Umrah packages with best arrangements.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 12c-10 0-18 8-6 16 6 4 6 8 6 12" stroke="url(#sg8)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M32 12c10 0 18 8 6 16-6 4-6 8-6 12" stroke="url(#sg8)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M24 40h16" stroke="url(#sg8)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M26 48h12" stroke="url(#sg8)" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="32" cy="10" r="3" fill="url(#sg8)" opacity=".5"/>
+            <defs><linearGradient id="sg8" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Honeymoon Packages</h3>
+        <p>Romantic getaways made unforgettable.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="10" y="16" width="44" height="32" rx="3" stroke="url(#sg9)" stroke-width="2.5"/>
+            <path d="M10 24h44" stroke="url(#sg9)" stroke-width="2"/>
+            <circle cx="20" cy="20" r="2" fill="url(#sg9)"/>
+            <circle cx="28" cy="20" r="2" fill="url(#sg9)"/>
+            <path d="M18 32h8M18 38h14M34 32h12" stroke="url(#sg9)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="sg9" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Corporate Travel Management</h3>
+        <p>Efficient &amp; tailored travel solutions for business needs.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== DESTINATIONS ===== -->
+  <section class="section destinations" id="destinations">
+    <div class="section-header">
+      <p class="section-label">WHERE WE GO</p>
+      <h2 class="section-title">Popular <span class="gold-text">Destinations</span></h2>
+      <div class="gold-divider"></div>
+    </div>
+    <div class="destinations-grid">
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Dubai</h3>
+          <p>UAE</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Thailand</h3>
+          <p>Southeast Asia</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Malaysia</h3>
+          <p>Southeast Asia</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Singapore</h3>
+          <p>Southeast Asia</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1528127269322-539801943592?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Vietnam</h3>
+          <p>Southeast Asia</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Saudi Arabia</h3>
+          <p>Middle East</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1566837945700-30057527ade0?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Kashmir</h3>
+          <p>India</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+      <div class="dest-card" style="--bg: url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80')">
+        <div class="dest-overlay"></div>
+        <div class="dest-content">
+          <h3>Goa / Kerala</h3>
+          <p>India</p>
+          <a href="#contact" class="dest-btn">Explore</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section why-us" id="why-us">
+    <div class="section-header">
+      <p class="section-label">OUR PROMISE</p>
+      <h2 class="section-title">Why <span class="gold-text">Choose Us?</span></h2>
+      <div class="gold-divider"></div>
+    </div>
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="22" stroke="url(#wg)" stroke-width="2.5"/>
+            <path d="M20 32l8 8 16-16" stroke="url(#wg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs><linearGradient id="wg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Affordable Packages</h3>
+        <p>Best prices with maximum value for every budget.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M32 8l6 14h14l-11 9 4 14-13-9-13 9 4-14L12 22h14z" stroke="url(#wg2)" stroke-width="2.5" stroke-linejoin="round"/>
+            <defs><linearGradient id="wg2" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Trusted Service</h3>
+        <p>Years of experience with a commitment to excellence.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <circle cx="32" cy="32" r="20" stroke="url(#wg3)" stroke-width="2.5"/>
+            <path d="M32 20v12l8 4" stroke="url(#wg3)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 12l4 4M56 12l-4 4" stroke="url(#wg3)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="wg3" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>24/7 Customer Support</h3>
+        <p>We are here for you, anytime, anywhere.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M12 52V28l20-16 20 16v24" stroke="url(#wg4)" stroke-width="2.5" stroke-linejoin="round"/>
+            <rect x="24" y="36" width="16" height="16" rx="1" stroke="url(#wg4)" stroke-width="2"/>
+            <path d="M28 36v-6a4 4 0 018 0v6" stroke="url(#wg4)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="wg4" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Customized Tours</h3>
+        <p>Tailor-made itineraries to suit your needs.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">
+          <svg viewBox="0 0 64 64" fill="none">
+            <path d="M16 32h32M40 20l12 12-12 12" stroke="url(#wg5)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="20" cy="32" r="10" stroke="url(#wg5)" stroke-width="2" opacity=".4"/>
+            <defs><linearGradient id="wg5" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse"><stop stop-color="#f5d08a"/><stop offset="1" stop-color="#b8860b"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Fast Booking Process</h3>
+        <p>Quick, easy &amp; convenient bookings every time.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== STATS STRIP ===== -->
+  <section class="stats-strip">
+    <div class="stat-item">
+      <span class="stat-num gold-text">5000+</span>
+      <span class="stat-label">Happy Travelers</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num gold-text">50+</span>
+      <span class="stat-label">Destinations</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num gold-text">10+</span>
+      <span class="stat-label">Years Experience</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-num gold-text">24/7</span>
+      <span class="stat-label">Support</span>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="section-header">
+      <p class="section-label">GET IN TOUCH</p>
+      <h2 class="section-title">Contact <span class="gold-text">Us</span></h2>
+      <div class="gold-divider"></div>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3 class="gold-text">NUH Trading Pvt Ltd</h3>
+        <p class="contact-division">Tours &amp; Travels Division</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <strong>Address</strong>
+            <p>4th Gate, MN's Avenue,<br/>Calicut - 673004, Kerala, India</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0121.92 16z"/></svg>
+          </div>
+          <div>
+            <strong>Phone</strong>
+            <p>+91 XXXXX XXXX, +91 XXXXX XXXX</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:info@nuhtravels.com">info@nuhtravels.com</a></p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+          </div>
+          <div>
+            <strong>Website</strong>
+            <p><a href="https://www.nuhtravels.com" target="_blank" rel="noreferrer">www.nuhtravels.com</a></p>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <span>Follow Us:</span>
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.05 1.93C6.456 1.93 1.93 6.456 1.93 12.05c0 1.863.49 3.63 1.345 5.17L1.93 22.07l4.95-1.295A10.1 10.1 0 0012.05 22.17c5.594 0 10.12-4.526 10.12-10.12S17.644 1.93 12.05 1.93z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h3>Send Us a Message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>Destination of Interest</label>
+          <select>
+            <option value="">Select a destination</option>
+            <option>Dubai</option>
+            <option>Thailand</option>
+            <option>Malaysia</option>
+            <option>Singapore</option>
+            <option>Vietnam</option>
+            <option>Saudi Arabia</option>
+            <option>Kashmir</option>
+            <option>Goa / Kerala</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message / Requirements</label>
+          <textarea rows="4" placeholder="Tell us about your travel plans..."></textarea>
+        </div>
+        <button type="submit" class="btn-gold btn-full">Send Enquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:16px">
+          <div class="logo-icon">
+            <svg viewBox="0 0 50 50" width="44" height="44">
+              <circle cx="25" cy="25" r="22" stroke="url(#goldGrad2)" stroke-width="2" fill="none"/>
+              <ellipse cx="25" cy="25" rx="22" ry="10" stroke="url(#goldGrad2)" stroke-width="1.5" fill="none"/>
+              <line x1="3" y1="25" x2="47" y2="25" stroke="url(#goldGrad2)" stroke-width="1.5"/>
+              <defs>
+                <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#f5d08a"/>
+                  <stop offset="50%" style="stop-color:#d4a017"/>
+                  <stop offset="100%" style="stop-color:#b8860b"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-nuh">NUH</span>
+            <span class="logo-sub">TOURS &amp; TRAVELS</span>
+          </div>
+        </div>
+        <p class="footer-tagline">Explore | Experience | Enjoy</p>
+        <p class="footer-desc">We don't just plan trips, we create memories that last a lifetime.</p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services">Flight Booking</a></li>
+          <li><a href="#services">Visa Assistance</a></li>
+          <li><a href="#services">Hotel Reservations</a></li>
+          <li><a href="#services">Cruise Packages</a></li>
+          <li><a href="#services">Umrah Tours</a></li>
+          <li><a href="#services">Honeymoon Packages</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Popular Destinations</h4>
+        <ul>
+          <li><a href="#destinations">Dubai</a></li>
+          <li><a href="#destinations">Thailand</a></li>
+          <li><a href="#destinations">Malaysia</a></li>
+          <li><a href="#destinations">Singapore</a></li>
+          <li><a href="#destinations">Kashmir</a></li>
+          <li><a href="#destinations">Goa / Kerala</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Contact</h4>
+        <p>4th Gate, MN's Avenue,<br/>Calicut &ndash; 673004, Kerala, India</p>
+        <p>+91 XXXXX XXXXX<br/>+91 XXXXX XXXXX</p>
+        <p><a href="mailto:info@nuhtravels.com">info@nuhtravels.com</a></p>
+        <p><a href="https://www.nuhtravels.com" target="_blank" rel="noreferrer">www.nuhtravels.com</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 NUH Trading Pvt Ltd &mdash; Tours &amp; Travels Division. All rights reserved.</p>
+      <p class="footer-motto">Your Journey BEGINS WITH US</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.05 1.93C6.456 1.93 1.93 6.456 1.93 12.05c0 1.863.49 3.63 1.345 5.17L1.93 22.07l4.95-1.295A10.1 10.1 0 0012.05 22.17c5.594 0 10.12-4.526 10.12-10.12S17.644 1.93 12.05 1.93z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
